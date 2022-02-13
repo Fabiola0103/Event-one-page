@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&family=Raleway:wght@500&display=swap');
+
+/* Scroll bar */
+
+body::-webkit-scrollbar {
+    width: 15px;             
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: lightgrey;     
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #00DAC0;    
+    border-radius: 10px;       
+    border: 3px solid lightgray;  
+  }
+
+/* Part1 */
+
+.box1 {
+    background-image: url(../images/backg5.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.contentbox1 {
+    padding: 25vh 0 0 11vh;  
+}
+
+.logo1 {
+    width: 590px; 
+    -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.slogan {
+    font-family: 'Meow Script', cursive;
+    color: white; 
+    background-color: #00DAC0;
+    font-size: 70px; 
+    height: 60px;
+    width:450px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subslogan {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px; 
+    color: white; 
+}
+
+.btn-faleConosco {
+    background-color: #00DAC0 !important;
+    color: white !important;
+    border-color: #00DAC0 !important;
+    font-family: 'Raleway', sans-serif;
+}
+
+.modaltitle{
+    
+    height: 10vh;
+}
+
+
+/* Part 2 */
+
+.box2 {
+    height: 88vh;
+    background-color: #00DAC0;
+}
+
+.title {
+    font-family: 'Meow Script', cursive;
+    text-align: center;
+    font-size: 70px; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white; 
+}
+
+.aboutinfo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px; 
+    text-align: center;
+    color: white;
+    padding: 3vh;
+}
+
+.photo {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 5rem;
+}
+
+.photo1 {
+    margin-top: 3rem;
+    margin-left: 22rem;
+    background-image: url(../images/about3.jpg);
+    height: 260px;
+    width: 360px;
+ 
+}
+
+.photo2 {
+    margin-top: 18rem;
+    margin-left: 14rem;
+    background-image: url(../images/about1.jpg);
+    height: 270px;
+    width: 270px;
+    border-color: #00DAC0;
+    border-width: 20px;
+    border-style: solid;
+
+}
+
+.photo3 {
+    margin-top: 6rem;
+    background-image: url(../images/about2.jpg);  
+    height: 390px;
+    width: 280px;
+}
+
+/* Part 3 */
+
+.title2 {
+    font-family: 'Meow Script', cursive;
+    color: white; 
+    background-color: #00DAC0;
+    font-size: 70px; 
+    height: 60px;
+    width:410px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2rem;
+}
+
+.square{
+    background-color: #00DAC0;
+}
+
+.squaretitle{
+    font-family: 'Meow Script', cursive;
+    color: white; 
+    font-size: 55px;    
+    text-align: left;
+    
+}
+
+.squaretext{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px; 
+    text-align: left;
+    color: white;
+    
+    
+}
+
+/* Part 4 */
+
+.box4 {
+    background-image: url(../images/planos1.jpg);
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.promobox1 {
+    background-color: #b0b0b3a6;
+    height: 50vh;
+    width: 19vw;      
+}
+.promobox2 {
+    background-color: #00dac1d0;
+    height: 65vh;
+    width: 19vw;   
+}
+
+.btn-saibamais {
+    color: white !important;
+    border-color: white !important;
+    border-radius: 2px;
+    font-family: 'Raleway', sans-serif;
+    background-color: none;
+}
+
+/* Part 5 */
+
+.hover08 .figure img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+.hover08 .figure:hover img {
+-webkit-filter: grayscale(0);
+filter: grayscale(0);
+}
+
+.image2 {
+display: block !important;
+max-width: 100%;
+height: auto;
+}
+
+/* -overlay- */
+
+.container1 {
+position: relative;
+}
+
+.image1 {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.overlay1 {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: #00dac1d0;
+overflow: hidden;
+width: 100%;
+height: 0;
+transition: 0.5s ease;
+}
+
+.overlay2 {
+position: absolute;
+bottom: 25%;
+left: 43%;
+right: 0;
+background-color: #ffffff9d;
+overflow: hidden;
+width: 14%;
+height:0;
+transition: .5s ease;
+border-radius: 50%;
+}
+
+.container1:hover .overlay1 {
+height: 30%;
+}
+
+.container1:hover .overlay2 {
+height: 18%;
+}
+
+.text1 {
+color: white;
+font-size: 15px;
+font-family: "Raleway", sans-serif;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+@import url('https://css.gg/search.css');
+
+.gg-search {
+box-sizing: border-box;
+position: relative;
+display: block;
+transform: scale(var(--ggs,1));
+width: 16px;
+height: 16px;
+border: 2px solid;
+border-radius: 100%;
+border-color: #00DAC0;
+margin-left: -4px;
+margin-top: -4px
+}
+.gg-search::after {
+content: "";
+display: block;
+box-sizing: border-box;
+position: absolute;
+border-radius: 3px;
+width: 2px;
+height: 8px;
+background: #00DAC0;
+transform: rotate(-45deg);
+top: 10px;
+left: 12px
+}
+
+/* Part 6 */
+
+.numbersbg{
+    background-image: url(../images/back3.jpg);
+    height: 20vh;
+    background-size: cover;
+    background-position: top;
+    box-shadow: inset 0 0 0 1000px #00dac181;
+}
+
+.mytext{
+    color: white;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mynumber{
+    color: white;
+    font-family: 'Meow Script', cursive;
+    font-size: 60px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* part 7 */
+
+.comcolor{
+    color: white
+}
+
+.mycarousel1{
+    height: 20rem; 
+}
+
+.mycarousel2{
+    background-color: #00DAC0;
+}
+
+/* part 8 */
+
+.box8 {
+    background-image: url(../images/back1.jpg);
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.difbox {
+    border-color: #00dac1d0;
+    border-width: 2.5px;
+    border-style: solid;
+    height: 30vh;
+    width: 14.5vw;      
+}
+
+.difbox:hover {
+    background-color: #00dac1d0;
+    border-color: none;
+    border-width: 0;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+/* part 9 */
+
+.box9{
+    background-color: black;
+}
+
+.social-icons {
+    font-size: 1.7rem;
+}
+
+.fa {
+    padding: 1rem;
+    width: 3.7rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px;
+    border-radius: 50%;
+  }
+
+.fa:hover {
+    background-color: #00DAC0;
+    color: white;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.fa-facebook {
+    background: #B0B0B3;
+    color: white;
+}
+
+.fa-twitter {
+    background: #B0B0B3;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #B0B0B3;
+    color: white;
+  }
+
+  .logo2 {
+    width: 100px;  
+    padding-bottom: 40px;  
+    color: white;
+}
+
+.contact {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #B0B0B3;
+}
+
